@@ -7,10 +7,10 @@ var PORT = 8080;
 // Create a generic function to handle requests and responses
 function handleRequest(request, response) {
 
-console.log(`You got it`)
-response.end(`It will create PAth hit: ${request.url}`);
+
+console.log("request made!");
   // Send the below string to the client when the user visits the PORT URL
-  response.end("It Works!! Path Hit: " + request.url);
+ response.end(`It works! Path hit: ${request.url}`);
 }
 
 // Use the Node HTTP package to create our server.
