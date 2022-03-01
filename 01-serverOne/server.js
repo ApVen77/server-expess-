@@ -1,8 +1,8 @@
 // Require/import the HTTP module
-var http = require("http");
+const http = require("http");
 
 // Define a port to listen for incoming requests
-var PORT = 8080;
+const PORT = 8080;
 
 // Create a generic function to handle requests and responses
 function handleRequest(request, response) {
